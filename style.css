@@ -13,6 +13,10 @@ header {
     text-align: center;
 }
 .logo {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 200px;
+
     max-width: 100px;
     margin-bottom: 10px;
 }
