@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMont SK, s.r.o.</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.lang-' + lang).forEach(el => el.style.display = 'block');
+        }
+        window.onload = () => switchLang('sk');
+    </script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="TechMont SK logo" class="logo">
+        <h1>TechMont SK, s.r.o.</h1>
+        <div class="language-switcher">
+            <button onclick="switchLang('sk')">🇸🇰 Slovenčina</button>
+            <button onclick="switchLang('de')">🇩🇪 Deutsch</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="lang lang-sk">
+            <h2>O nás</h2>
+            <p>Sme slovenská firma pôsobiaca na trhu v oblasti montáže optických káblov a inštalácií routerov. Našou hlavnou činnosťou sú montáže v bytových domoch a pivničných priestoroch, predovšetkým v Nemecku.</p>
+        </section>
+        <section class="lang lang-de">
+            <h2>Über uns</h2>
+            <p>Wir sind ein slowakisches Unternehmen, das sich auf die Installation von Glasfaserkabeln und Routern spezialisiert hat. Unsere Haupttätigkeit ist die Installation in Wohngebäuden und Kellerräumen, hauptsächlich in Deutschland.</p>
+        </section>
+
+        <section class="lang lang-sk">
+            <h2>Naše služby</h2>
+            <ul>
+                <li>Montáž optických káblov (FTTH)</li>
+                <li>Inštalácia a konfigurácia routerov</li>
+                <li>Rozvody v bytových domoch a pivniciach</li>
+                <li>Testovanie a dokumentácia káblov</li>
+            </ul>
+        </section>
+        <section class="lang lang-de">
+            <h2>Unsere Dienstleistungen</h2>
+            <ul>
+                <li>Installation von Glasfaserkabeln (FTTH)</li>
+                <li>Installation und Konfiguration von Routern</li>
+                <li>Verkabelung in Wohnhäusern und Kellern</li>
+                <li>Testen und Dokumentation der Kabel</li>
+            </ul>
+        </section>
+
+        <section class="lang lang-sk">
+            <h2>Kontakt</h2>
+            <p>Napíšte nám: <a href="mailto:skala.junior133@gmail.com">skala.junior133@gmail.com</a></p>
+        </section>
+        <section class="lang lang-de">
+            <h2>Kontakt</h2>
+            <p>Schreiben Sie uns: <a href="mailto:skala.junior133@gmail.com">skala.junior133@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TechMont SK, s.r.o. Všetky práva vyhradené.</p>
+    </footer>
+</body>
+</html>
