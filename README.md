@@ -1,8 +1,7 @@
 # techmontsk
 Firemný web TechMont SK
-index.html
-style.css
-logo.png
+
+
 README.md
 TechMont SK, s.r.o.
 🇸🇰 Slovenčina 🇩🇪 Deutsch
