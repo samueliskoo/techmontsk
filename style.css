@@ -1,20 +1,31 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6fa;
+    color: #222;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #005288;
+    background-color: #003e6b;
     color: white;
-    padding: 20px;
+    padding: 25px 20px;
     text-align: center;
 }
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.tagline {
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px 0;
+}
 .language-switcher button {
-    margin: 0 5px;
-    padding: 6px 12px;
-    font-size: 16px;
+    margin: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    cursor: pointer;
 }
 main {
     padding: 20px;
@@ -22,12 +33,14 @@ main {
 section {
     margin-bottom: 30px;
     background: white;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 footer {
-    background-color: #333;
+    background-color: #222;
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 14px;
 }
