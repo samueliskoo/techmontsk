@@ -1,41 +1,39 @@
-TechMont SK logo
-TechMont SK, s.r.o.
 
-🇸🇰 Slovenčina  🇩🇪 Deutsch
-O nás
-
-Sme slovenská firma pôsobiaca na trhu v oblasti montáže optických káblov a inštalácií routerov. Našou hlavnou činnosťou sú montáže v bytových domoch a pivničných priestoroch, predovšetkým v Nemecku.
-
-Naše služby
-
-Montáž optických káblov (FTTH)
-Inštalácia a konfigurácia routerov
-Rozvody v bytových domoch a pivniciach
-Testovanie a dokumentácia káblov
-Hľadáme montérov a technikov – spolupráca formou živnosti
-
-Firma TechMont SK, s.r.o. rozširuje svoj tím o spoľahlivých ľudí na dlhodobú spoluprácu v oblasti montáže optických káblov a sieťových riešení v Nemecku.
-
-Koho hľadáme:
-
-Montérov optických káblov (FTTH)
-Technikov na inštaláciu routerov
-Pomocníkov so záujmom o techniku
-Čo požadujeme:
-
-Vlastná živnosť (podmienka)
-Zodpovedný prístup, precíznosť, samostatnosť
-Základné technické znalosti
-Vodičský preukaz výhodou
-Čo ponúkame:
-
-Turnusová práca 3 týždne v zahraničí / 1 týždeň doma
-Férové podmienky a výplaty vždy načas
-Profesionalita a dlhodobá spolupráca
-📩 Kontakt: skala.junior133@gmail.com
-
-Kontakt
-
-Napíšte nám: skala.junior133@gmail.com
-
-© 2025 TechMont SK, s.r.o. Všetky práva vyhradené.
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TechMont SK, s.r.o.</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.lang-' + lang).forEach(el => el.style.display = 'block');
+        }
+        window.onload = () => switchLang('sk');
+    </script>
+</head>
+<body>
+    <header>
+        <h1>TechMont SK, s.r.o.</h1>
+        <div class="language-switcher">
+            <button onclick="switchLang('sk')">🇸🇰 Slovenčina</button>
+            <button onclick="switchLang('de')">🇩🇪 Deutsch</button>
+        </div>
+    </header>
+    <main>
+        <section class="lang lang-sk">
+            <h2>O nás</h2>
+            <p>Sme slovenská firma pôsobiaca na trhu v oblasti montáže optických káblov a inštalácií routerov. Našou hlavnou činnosťou sú montáže v bytových domoch a pivničných priestoroch, predovšetkým v Nemecku.</p>
+        </section>
+        <section class="lang lang-sk">
+            <h2>Hľadáme montérov a technikov</h2>
+            <p>Spolupráca formou živnosti. Turnusový režim 3+1. Kontakt: skala.junior133@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 TechMont SK, s.r.o.</p>
+    </footer>
+</body>
+</html>
